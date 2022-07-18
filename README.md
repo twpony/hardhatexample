@@ -40,3 +40,9 @@ Then, copy the deployment address and paste it in to replace `DEPLOYED_CONTRACT_
 ```shell
 npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS "Hello, Hardhat!"
 ```
+
+```shell
+npm install --save-dev hardhat@2.9.8
+npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/{key}
+npx hardhat test tests/test.js
+```
